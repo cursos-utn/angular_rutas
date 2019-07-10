@@ -1,27 +1,27 @@
 # AngularRutas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
-## Development server
+## Descarga
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clonar el repositorio en la computadora y luego correr `npm install` para descargar e instalar las dependencias del proyecto.
 
-## Code scaffolding
+Prestar atención a los archivos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- src/app/app-routing.module.ts
+- src/app/pagina1/pagina1.component.html
+- src/app/pagina2/pagina2.component.html
 
-## Build
+## Servidor de pruebas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Correr `ng serve` para iniciar el servidor de pruebas. Ir a `http://localhost:4200/`. La aplicación se refresca automáticamente en caso de realizar un cambio en el código fuente.
 
-## Running unit tests
+## Crear componentes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Correr `ng generate component component-name` para crear un nuevo componente. 
 
-## Running end-to-end tests
+## Compilar
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Correr `ng build` para compilar el proyecto (dejarlo listo para subirlo a un servidor). Los archivos generados se encontrarán en `dist/` . Use el modificador `--prod` para compilar en modo producción.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
